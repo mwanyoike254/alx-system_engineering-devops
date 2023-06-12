@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -u --exclude '*.html' --exclude '__pycache__' --exclude '*.pyc' --exclude '.*' --ignore-existing ./*.html ../
